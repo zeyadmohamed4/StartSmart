@@ -1,0 +1,46 @@
+[
+  {
+    "Description": "Successfully raised $500,000 in seed funding to kickstart our project.",
+    "IsActive": true,
+    "UserId": 9,
+    "ProjectId": 1
+  },
+  {
+    "Description": "Secured a major investment from a well-known venture capital firm.",
+    "IsActive": true,
+    "UserId": 10,
+    "ProjectId": 2
+  },
+  {
+    "Description": "Attracted 100+ angel investors within the first 3 months.",
+    "IsActive": false,
+    "UserId": 11,
+    "ProjectId": 3
+  },
+  {
+    "Description": "Closed a Series A funding round totaling $3 million.",
+    "IsActive": true,
+    "UserId": 12,
+    "ProjectId": 6
+  },
+  {
+    "Description": "Increased investor confidence through transparent financial reporting.",
+    "IsActive": true,
+    "UserId": 13,
+    "ProjectId": 7
+  },
+  {
+    "Description": "Built strong partnerships with key investment firms.",
+    "IsActive": false,
+    "UserId": 14,
+    "ProjectId": 8
+  },
+  {
+    "Description": "Expanded investment opportunities to international investors.",
+    "IsActive": true,
+    "UserId": 13,
+    "ProjectId": 9
+  }
+]
+
+

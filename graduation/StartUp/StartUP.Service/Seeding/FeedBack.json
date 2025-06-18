@@ -1,0 +1,52 @@
+[
+  {
+    "Massage": "Excellent and fast service.",
+    "Stars": 5,
+    "UserId": 1
+  },
+  {
+    "Massage": "Overall, the experience was good.",
+    "Stars": 4,
+    "UserId": 2
+  },
+  {
+    "Massage": "The website needs some design improvements.",
+    "Stars": 3,
+    "UserId": 3
+  },
+  {
+    "Massage": "Customer support was fast to respond.",
+    "Stars": 2,
+    "UserId": 4
+  },
+  {
+    "Massage": "Very excellent, highly recommend it.",
+    "Stars": 5,
+    "UserId": 5
+  },
+  {
+    "Massage": "User interface is easy to use.",
+    "Stars": 4,
+    "UserId": 1
+  },
+  {
+    "Massage": "Content quality was inconsistent.",
+    "Stars": 3,
+    "UserId": 2
+  },
+  {
+    "Massage": "Recent updates greatly improved performance.",
+    "Stars": 5,
+    "UserId": 3
+  },
+  {
+    "Massage": "There were some technical issues.",
+    "Stars": 2,
+    "UserId": 4
+  },
+  {
+    "Massage": "I recommend this service to everyone interested.",
+    "Stars": 5,
+    "UserId": 5
+  }
+]

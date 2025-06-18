@@ -1,0 +1,47 @@
+[
+  {
+    "DealType": "Debt Financing",
+    "RiskTolerance": "Low",
+    "InvestmentHorizon": "Short to Medium",
+    "IncomePreference": "Fixed Income",
+    "RepaymentTerms": "Fixed Payments",
+    "MaturityDate": "2027-05-23T00:00:00",
+    "Colletral": "Company Assets, Personal Guarantee"
+  },
+  {
+    "DealType": "Revenue-Based Financing (RBF)",
+    "RiskTolerance": "Medium",
+    "InvestmentHorizon": "Short to Medium",
+    "IncomePreference": "Variable Income",
+    "RepaymentTerms": "Flexible Payments",
+    "RepaymentCap": "1.5X-3X Monthly Revenue"
+  },
+  {
+    "DealType": "Convertible Notes",
+    "RiskTolerance": "Medium to High",
+    "InvestmentHorizon": "Medium to Long",
+    "IncomePreference": "Variable Income",
+    "RepaymentTerms": "Equity Conversion",
+    "MaturityDate": "2028-05-23T00:00:00",
+    "ValuationCap": 5000000,
+    "DiscountRate": 20
+  },
+  {
+    "DealType": "Equity Financing",
+    "RiskTolerance": "High",
+    "InvestmentHorizon": "Long-Term",
+    "IncomePreference": "Capital Gains",
+    "RepaymentTerms": "N/A",
+    "OwnershipOffered": 15
+  },
+  {
+    "DealType": "SAFE (Simple Agreement for Future Equity)",
+    "RiskTolerance": "High",
+    "InvestmentHorizon": "Long-Term",
+    "IncomePreference": "Capital Gains",
+    "RepaymentTerms": "Equity Conversion",
+    "ValuationCap": 8000000,
+    "DiscountRate": 15,
+    "ConversionTrigger": "Next Qualified Financing Round"
+  }
+]
