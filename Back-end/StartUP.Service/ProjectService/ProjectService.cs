@@ -568,7 +568,11 @@ namespace StartUP.Service.ProjectService
                 InvestmentId = investmentId,
                 InvestorName = investorName,
                 InvestmentAmount = investmentAmount,
-                Status = project.Status
+                Status = project.Status,
+                IsActiveTill = project.IsActiveTill,
+                FoundingYear = project.FoundingYear,
+                TotalFundingRounds = project.TotalFundingRounds,
+                FundingRoundType = project.FundingRoundType,
             };
         }
 

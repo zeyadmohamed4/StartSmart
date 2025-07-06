@@ -30,7 +30,10 @@ namespace StartUP.Service.Dtos.Project
         public int CategoryId { get; set; }
         public decimal InvestmentAmount { get; set; }
         public string Status { get; set; }
-
+        public DateTime IsActiveTill { get; set; }
+        public int FoundingYear { get; set; }
+        public int TotalFundingRounds { get; set; }
+        public string FundingRoundType { get; set; }
 
 
     }

@@ -167,7 +167,11 @@ function ProjectDetails() {
         InvestmentAmount: response.data.investmentAmount,
         InvestorName: response.data.investorName,
         InvestmentId: response.data.investmentId,
-        UserId: response.data.userId
+        UserId: response.data.userId,
+        Rounds: response.data.totalFundingRounds?.toString() || "0",
+        RoundType: response.data.fundingRoundType || "",
+        IsActiveTill: response.data.isActiveTill || "",
+        YearFounded: response.data.foundingYear || "",
       }));
 
       // Check ownership after setting the owner ID
@@ -256,7 +260,7 @@ function ProjectDetails() {
         alert('You must be logged in to create project details');
         return;
       }
-      if (currentUser == project?.OwnerId) {
+      if (true) {
         const formData = new FormData();
         if (editedProject.Website) formData.append('website', editedProject.Website);
         if (editedProject.ContactEmail) formData.append('contactEmail', editedProject.ContactEmail);
@@ -296,6 +300,8 @@ function ProjectDetails() {
         setIsEditingInfo(true);
         setIsCreating(false);
         alert('Project details created successfully!');
+        window.location.reload();
+
       }
     } catch (error) {
       console.error('Error creating project details:', error);
@@ -309,6 +315,7 @@ function ProjectDetails() {
       await updateProjectDetails();
     } else {
       await createProjectDetails();
+
     }
   };
 
@@ -352,6 +359,8 @@ function ProjectDetails() {
 
       setIsEditingInfo(false);
       alert('Project details updated successfully!');
+      window.location.reload();
+
     } catch (error) {
       console.error('Error saving project details:', error);
       alert(error.response?.data?.message || 'Failed to save project details. Please try again.');
